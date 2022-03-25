@@ -79,7 +79,7 @@
             Click="Ecourse_Click"
             Background="Orange"
             MaxHeight="30"
-            Margin="10,3,0,2" Grid.RowSpan="2">
+            Margin="10,3,0,2" Grid.RowSpan="2" Cursor="Hand">
 
             <TextBlock 
                 TextAlignment="Center" 
@@ -106,20 +106,27 @@
                Background="DarkGray" 
                HorizontalContentAlignment="Center" 
                VerticalContentAlignment="Center">
+            <TextBlock 
+                 
+                FontWeight="Bold" 
+                FontFamily="Segoe UI" 
+                Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center"> 
                 Имя преподавателя
+            </TextBlock>
+            
         </Label>
         <Button 
             Grid.Column="5" 
             Grid.Row="2"            
-            Click="Ecourse_Click"
+            Click="Ecourse_Click" 
             MaxHeight="30"
-            Margin="10,5,10,5" >
+            Margin="10,0,10,0" >
 
             <TextBlock 
-                TextAlignment="Center" 
+                 
                 FontWeight="Bold" 
                 FontFamily="Segoe UI" 
-                Foreground="White"> 
+                Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center"> 
                 E-курсы
             </TextBlock>
         </Button>
@@ -129,7 +136,7 @@
             Grid.Row="2"            
             Click="Ecourse_Click"
             MaxHeight="30"
-            Margin="10,5,10,5" >
+            Margin="10,0,10,0" >
             <TextBlock 
                 TextAlignment="Center" 
                 FontWeight="Bold" 
