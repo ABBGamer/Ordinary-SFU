@@ -98,6 +98,38 @@
         <Button Grid.Column="2" Grid.Row="1" Content="Курсы" Click="Button_Click"/>
         <Button Grid.Column="3" Grid.Row="1" Content="Занятие" Click="Button_Click"/>
         -->
+        
+        <!--  БЛОК КНОПОК ПРЕПОДАВАТЕЛЕЙ, КУРСЫ И ССЫЛКИ  -->
+        <Label Margin="7,7,7,7" Grid.Column="4" Grid.Row="2" Background="DarkGray" HorizontalContentAlignment="Center" VerticalContentAlignment="Center">Имя преподавателя</Label>
+        <Button Margin="7,7,7,7" Grid.Column="5" Grid.Row="2"  Click="Button_Click" >Курсы</Button>
+        <Button Margin="7,7,7,7" Grid.Column="6" Grid.Row="2" Content="Ссылка" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"  Click="Button_Click"/>
+
+        <Label Grid.Column="4" Grid.Row="3" Background="DarkGray" HorizontalContentAlignment="Center" VerticalContentAlignment="Center">Имя преподавателя</Label>
+        <Button Grid.Column="5" Grid.Row="3" Content="Курсы" Click="Button_Click"/>
+        <Button Grid.Column="6" Grid.Row="3" Content="Ссылка" Click="Button_Click"/>
+
+        <Label Grid.Column="4" Grid.Row="4" Background="DarkGray" HorizontalContentAlignment="Center" VerticalContentAlignment="Center">Имя преподавателя</Label>
+        <Button Grid.Column="5" Grid.Row="4" Content="Курсы" Click="Button_Click"/>
+        <Button Grid.Column="6" Grid.Row="4" Content="Ссылка" Click="Button_Click"/>
+
+        <Label Grid.Column="4" Grid.Row="5" Background="DarkGray" HorizontalContentAlignment="Center" VerticalContentAlignment="Center">Имя преподавателя</Label>
+        <Button Grid.Column="5" Grid.Row="5" Content="Курсы" Click="Button_Click"/>
+        <Button Grid.Column="6" Grid.Row="5" Content="Ссылка" Click="Button_Click"/>
+
+        <Label Grid.Column="4" Grid.Row="6" Background="DarkGray" HorizontalContentAlignment="Center" VerticalContentAlignment="Center">Имя преподавателя</Label>
+        <Button Grid.Column="5" Grid.Row="6" Content="Курсы" Click="Button_Click"/>
+        <Button Grid.Column="6" Grid.Row="6" Content="Ссылка" Click="Button_Click"/>
+
+        <Label Grid.Column="4" Grid.Row="7" Background="DarkGray" HorizontalContentAlignment="Center" VerticalContentAlignment="Center">Имя преподавателя</Label>
+        <Button Grid.Column="5" Grid.Row="7" Content="Курсы" Click="Button_Click"/>
+        <Button Grid.Column="6" Grid.Row="7" Content="Ссылка" Click="Button_Click"/>
+
+        <Label Grid.Column="4" Grid.Row="8" Background="DarkGray" HorizontalContentAlignment="Center" VerticalContentAlignment="Center">Имя преподавателя</Label>
+        <Button Grid.Column="5" Grid.Row="8" Content="Курсы" Click="Button_Click"/>
+        <Button Grid.Column="6" Grid.Row="8" Content="Ссылка" Click="Button_Click"/>
+
+
+
         <Label Grid.Column="1" Grid.Row="9" Grid.ColumnSpan="6" HorizontalAlignment="Center" Grid.RowSpan="2" Margin="0,25,0,0"
                >©Гребнев Антон, 2022 год</Label>
     </Grid>
