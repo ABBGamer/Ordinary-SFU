@@ -6,8 +6,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:SFU_schedule"
         mc:Ignorable="d"
-        Title="Расписание СФУ" Height="450" Width="800">
-    <Grid>
+        Title="Расписание СФУ" Height="1000" Width="1000"
+        
+        >
+    <Grid ScrollViewer.VerticalScrollBarVisibility="Disabled" MaxHeight="100000000000" MaxWidth="1000000">
         <Grid.RowDefinitions>
             <RowDefinition Height="20"/>
             <RowDefinition Height="105*"/>
@@ -20,7 +22,6 @@
             <RowDefinition Height="37*"/>
             <RowDefinition Height="34*"/>
             <RowDefinition Height="18*"/>
-
         </Grid.RowDefinitions>
 
         <Grid.ColumnDefinitions>
@@ -40,6 +41,7 @@
                Grid.ColumnSpan="2" 
                Grid.RowSpan="2" Margin="10,10,10,10"
         />
+
         <Label 
                Grid.Column="4" Grid.Row="1" 
                Grid.ColumnSpan="3" 
@@ -90,17 +92,10 @@
             </TextBlock>
         </Button>
 
-
-        <!--
-        <Image Source="Resources/sfu.png" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="3"/>
-        <Label Grid.Column="2" Grid.Row="0" Background="DarkGray" Grid.ColumnSpan="3" HorizontalContentAlignment="Center" VerticalContentAlignment="Center">Имя преподавателя</Label>
-        <Label Grid.Column="1" Grid.Row="1" Background="DarkGray" HorizontalContentAlignment="Center" VerticalContentAlignment="Center">Имя преподавателя</Label> 
-        <Button Grid.Column="2" Grid.Row="1" Content="Курсы" Click="Button_Click"/>
-        <Button Grid.Column="3" Grid.Row="1" Content="Занятие" Click="Button_Click"/>
-        -->
-        
         <!--  БЛОК КНОПОК ПРЕПОДАВАТЕЛЕЙ, КУРСЫ И ССЫЛКИ  -->
-        <Label Margin="7,7,7,7" 
+
+        <!--  1  -->
+        <Label Margin="3,3,3,3" 
                Grid.Column="4" 
                Grid.Row="2" 
                Background="DarkGray" 
@@ -110,10 +105,12 @@
                  
                 FontWeight="Bold" 
                 FontFamily="Segoe UI" 
-                Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center"> 
-                Имя преподавателя
+                Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="11" Width="183" TextAlignment="Center" Height="61"> 
+                Коршун Кирилл Викторович<LineBreak/>Основы информационной <LineBreak/>безопасности в <LineBreak/>компьютерных сетях
+
+
             </TextBlock>
-            
+
         </Label>
         <Button 
             Grid.Column="5" 
@@ -130,7 +127,6 @@
                 E-курсы
             </TextBlock>
         </Button>
-
         <Button 
             Grid.Column="6" 
             Grid.Row="2"            
@@ -146,9 +142,209 @@
             </TextBlock>
         </Button>
 
+        <!--  2  -->
+        <Label Margin="3,3,3,3" 
+               Grid.Column="4" 
+               Grid.Row="3" 
+               Background="DarkGray" 
+               HorizontalContentAlignment="Center" 
+               VerticalContentAlignment="Center">
+            <TextBlock 
+                 
+                FontWeight="Bold" 
+                FontFamily="Segoe UI" 
+                Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="11" Width="183" TextAlignment="Center" Height="61"> 
+                Казаков Федор Александрович<LineBreak/>Сетевые операционные <LineBreak/>системы и сервисы
 
 
-        <Label Grid.Column="1" Grid.Row="9" Grid.ColumnSpan="6" HorizontalAlignment="Center" Grid.RowSpan="2" Margin="0,25,0,0"
+            </TextBlock>
+
+        </Label>
+        <Button 
+            Grid.Column="5" 
+            Grid.Row="3"            
+            Click="Ecourse_Click" 
+            MaxHeight="30"
+            Margin="10,0,10,0" >
+
+            <TextBlock 
+                 
+                FontWeight="Bold" 
+                FontFamily="Segoe UI" 
+                Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center"> 
+                E-курсы
+            </TextBlock>
+        </Button>
+        <Button 
+            Grid.Column="6" 
+            Grid.Row="3"            
+            Click="Ecourse_Click"
+            MaxHeight="30"
+            Margin="10,0,10,0" >
+            <TextBlock 
+                TextAlignment="Center" 
+                FontWeight="Bold" 
+                FontFamily="Segoe UI" 
+                Foreground="White"> 
+                Ссылка
+            </TextBlock>
+        </Button>
+
+        <!--  3  -->
+        <Label Margin="3,3,3,3" 
+               Grid.Column="4" 
+               Grid.Row="4" 
+               Background="DarkGray" 
+               HorizontalContentAlignment="Center" 
+               VerticalContentAlignment="Center">
+            <TextBlock 
+                 
+                FontWeight="Bold" 
+                FontFamily="Segoe UI" 
+                Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="11" Width="183" TextAlignment="Center" Height="61"> 
+                -<LineBreak/> <LineBreak/>
+
+
+            </TextBlock>
+
+        </Label>
+        <Button 
+            Grid.Column="5" 
+            Grid.Row="4"            
+            Click="Ecourse_Click" 
+            MaxHeight="30"
+            Margin="10,0,10,0" >
+
+            <TextBlock 
+                 
+                FontWeight="Bold" 
+                FontFamily="Segoe UI" 
+                Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center"> 
+                E-курсы
+            </TextBlock>
+        </Button>
+        <Button 
+            Grid.Column="6" 
+            Grid.Row="4"            
+            Click="Ecourse_Click"
+            MaxHeight="30"
+            Margin="10,0,10,0" >
+            <TextBlock 
+                TextAlignment="Center" 
+                FontWeight="Bold" 
+                FontFamily="Segoe UI" 
+                Foreground="White"> 
+                Ссылка
+            </TextBlock>
+        </Button>
+
+        <!--  4  -->
+        <Label Margin="3,3,3,3" 
+               Grid.Column="4" 
+               Grid.Row="5" 
+               Background="DarkGray" 
+               HorizontalContentAlignment="Center" 
+               VerticalContentAlignment="Center">
+            <TextBlock 
+                 
+                FontWeight="Bold" 
+                FontFamily="Segoe UI" 
+                Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="11" Width="183" TextAlignment="Center" Height="61"> 
+                -<LineBreak/> <LineBreak/>
+
+
+            </TextBlock>
+
+            <!--  5  -->
+        </Label>
+        <Button 
+            Grid.Column="5" 
+            Grid.Row="5"            
+            Click="Ecourse_Click" 
+            MaxHeight="30"
+            Margin="10,0,10,0" >
+
+            <TextBlock 
+                 
+                FontWeight="Bold" 
+                FontFamily="Segoe UI" 
+                Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center"> 
+                E-курсы
+            </TextBlock>
+        </Button>
+        <Button 
+            Grid.Column="6" 
+            Grid.Row="5"            
+            Click="Ecourse_Click"
+            MaxHeight="30"
+            Margin="10,0,10,0" >
+            <TextBlock 
+                TextAlignment="Center" 
+                FontWeight="Bold" 
+                FontFamily="Segoe UI" 
+                Foreground="White"> 
+                Ссылка
+            </TextBlock>
+        </Button>
+
+        <Label Margin="3,3,3,3" 
+               Grid.Column="4" 
+               Grid.Row="5" 
+               Background="DarkGray" 
+               HorizontalContentAlignment="Center" 
+               VerticalContentAlignment="Center">
+            <TextBlock 
+                 
+                FontWeight="Bold" 
+                FontFamily="Segoe UI" 
+                Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="11" Width="183" TextAlignment="Center" Height="61"> 
+                -<LineBreak/> <LineBreak/>
+
+
+            </TextBlock>
+
+        </Label>
+        <Button 
+            Grid.Column="5" 
+            Grid.Row="5"            
+            Click="Ecourse_Click" 
+            MaxHeight="30"
+            Margin="10,0,10,0" >
+
+            <TextBlock 
+                 
+                FontWeight="Bold" 
+                FontFamily="Segoe UI" 
+                Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center"> 
+                E-курсы
+            </TextBlock>
+        </Button>
+        <Button 
+            Grid.Column="6" 
+            Grid.Row="5"            
+            Click="Ecourse_Click"
+            MaxHeight="30"
+            Margin="10,0,10,0" >
+            <TextBlock 
+                TextAlignment="Center" 
+                FontWeight="Bold" 
+                FontFamily="Segoe UI" 
+                Foreground="White"> 
+                Ссылка
+            </TextBlock>
+        </Button>
+
+        <!--  6  -->
+
+
+        <!--  7  -->
+
+
+        <!--  8  -->
+
+
+
+        <Label Grid.Column="4" Grid.Row="10" HorizontalAlignment="Center" Margin="0,19,0,0" Width="170"
                >©Гребнев Антон, 2022 год</Label>
     </Grid>
 </Window>
