@@ -165,7 +165,7 @@
             Grid.Row="3"            
             Click="Ecourse_Click" 
             MaxHeight="30"
-            Margin="10,0,10,0" >
+            Margin="10,0,10,0" Cursor="Hand" >
 
             <TextBlock 
                  
@@ -202,7 +202,9 @@
                 FontWeight="Bold" 
                 FontFamily="Segoe UI" 
                 Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="11" Width="183" TextAlignment="Center" Height="61"> 
-                -<LineBreak/> <LineBreak/>
+                Пятаева Анна Владимировна
+<LineBreak/>Системы искусственного <LineBreak/>интеллекта
+ <LineBreak/>
 
 
             </TextBlock>
@@ -298,7 +300,8 @@
                 FontWeight="Bold" 
                 FontFamily="Segoe UI" 
                 Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="11" Width="183" TextAlignment="Center" Height="61"> 
-                -<LineBreak/> <LineBreak/>
+                Медведев Максим Сергеевич
+<LineBreak/>Физические основы <LineBreak/>передачи данных и <LineBreak/>цифровая обработка сигналов <LineBreak/>
 
 
             </TextBlock>
