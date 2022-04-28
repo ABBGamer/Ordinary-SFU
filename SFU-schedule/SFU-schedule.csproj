@@ -109,6 +109,12 @@
   <ItemGroup>
     <Resource Include="Resources\sfu_ico.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="sfu_ico.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="sfu.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\MaterialDesignThemes.4.4.0\build\MaterialDesignThemes.targets" Condition="Exists('..\packages\MaterialDesignThemes.4.4.0\build\MaterialDesignThemes.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
